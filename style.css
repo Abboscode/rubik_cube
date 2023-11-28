@@ -1,0 +1,102 @@
+:root {
+
+    --container-height: 150px;
+    --container-width: 150px;
+}
+
+h1 {
+    height: 100px;
+    width: 200;
+    background-color: transparent;
+    margin: 50px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#box {
+    margin-top: 50px;
+    padding: 0px;
+
+    perspective: 1000px;
+}
+
+
+
+
+
+
+
+
+
+#box .container1 {
+
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: yellow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+transform: rotateX(-50deg) rotateY(-60deg);
+    
+}
+
+#box .container2 {
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+
+    transform:   translateY(-150px) translateX(80px) 
+}
+
+#box .container3 {
+
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+    transform: rotateX(-90deg) translateZ(150px)
+}
+
+#box .container4 {
+
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: purple;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+
+    transform: rotateX(-90deg) translateZ(150px)
+}
+
+#box .container5 {
+
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+    transform: rotateX(-90deg) translateZ(150px)
+}
+
+#box .container6 {
+
+    border-style: solid;
+    width: var(--container-width);
+    height: var(--container-height);
+    background-color: magenta;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10.1);
+    transform: rotateX(-90deg) translateZ(150px)
+}
